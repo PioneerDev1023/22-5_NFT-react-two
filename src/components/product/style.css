@@ -1,0 +1,161 @@
+.cat-title {
+    font-size: 32px;
+    color: #6A6A6A;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cat-btn {
+    font-size: 32px;
+    background-color: transparent;
+    color: turquoise;
+    border: none;
+    margin-top: -9px;
+    outline: none;
+    box-shadow: none;
+}
+.cat-btn:focus, .cat-btn:hover {
+    color: #6A6A6A !important;
+    box-shadow: none !important;
+}
+.dropdown-title {
+    width: 227px;
+}
+
+/* Search box */
+.input-group.md-form.form-sm.form-1 input {
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding-left: 0px;
+    border-left-width: 0px;
+    font-size: 12px;
+    color: #6A6A6A;
+}
+.search-image {
+    background-color: transparent; 
+    margin-right: -5px;
+    border: 1px solid #bdbdbd;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.search-img {
+    width: 19px;
+    height: 18px;
+}
+.search-row {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.search-box {
+    width: 80%;    
+}
+.search-form {
+    box-shadow: none;
+}
+
+/* NFT Items */
+.nft-card {
+    padding: 10px;
+}
+.each-card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.nft-price {
+    display: flex;
+    flex-flow: column;
+    color: #6A6A6A;
+    padding-left: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nft-img {
+    width: 250px;
+    height: 250px;
+}
+.card-body {
+    padding-top: 0px;
+}
+.cat-text {
+    display: flex;
+    align-items: center;
+}
+.cat-name {
+    margin: 0px 5px;
+    color: #6A6A6A;
+    font-weight: 600;
+}
+.cat-img {
+    margin-top: 1px;
+    width: 22px;
+}
+.maker {
+    font-size: 7px;
+    color: #6A6A6A;
+    margin-bottom: 10px;
+}
+.checkone {
+    width: 15px;
+}
+.check-button {
+    width: 54px;
+}
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 10px 0px;
+}
+.ether-price {
+    display: flex;
+    align-items: center;
+}
+.ether-img {
+    width: 23px;
+}
+.nft-val {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.dol-val {
+    font-size: 6px;
+    margin-bottom: 0px;
+}
+.fav-img {
+    width: 23px;
+    margin-right: 5px;
+}
+.cart-img {
+    width: 24px;
+    height: 23px;
+}
+.eye-img, .heartempty-img {
+    width: 15px;
+    padding-right: 5px;
+}
+.value {
+    display: flex;
+    margin: 5px 0px;
+}
+.read, .estimate {
+    color: #6A6A6A;
+    font-size: 8px;
+}
+.estimate {
+    margin-left: 5px;
+}
+
+/* Filter Image */
+.filter-img {
+    width: 65px;
+    position: fixed;
+    bottom: 20px;
+}
